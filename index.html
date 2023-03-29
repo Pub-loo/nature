@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Practical Nature Web-Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Oswald&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/favicon.ico"> </a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a> </li>
+                    <li><a href="">ABOUT</a> </li>
+                    <li><a href="">BEAUTY</a> </li>
+                    <li><a href="">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+     
+    <div class="text-box">
+        <h1>The beauty of Nature</h1>
+        <p>Nature is Blessed with simplicity.</p>
+        <a class="btn" href="">Read More</a>
+    </div>       
+    </section>
+    
+    <!-----------------Beauty------------------------------------->
+    
+    <section class="beauty">
+       <h1>Natural Beauty</h1>
+       <p>The nature of man is characterized by its beauty resulting mainly from the wonderful diversity of living organisms that exist in various parts of the earth, as well as the unique terrain of mountains, water, plateaus and forests. Each of these features is distinguished by a special beauty that distinguishes it from Other terrain, and this great diversity gave people wide spaces to seek calm, tranquility, and tranquility.</p>
+       
+       <div class="row">
+        
+       </div>
+        
+    </section>
+    
+    <section class="segments">
+        <h1>Beautiful Sight</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        
+        <div class="row">
+            <div class="beauty-col">
+                <img src="Images/mountain.jpg">
+                <div class="layer">
+                    <h3>Mountain</h3>
+                    
+                </div>
+                <p class="bless">The beauty of nature around us is one of the greatest blessings of God on us.</p>
+            </div>
+            
+               <div class="beauty-col">
+                <img src="Images/naturesquirrel.jpg">
+                <div class="layer">
+                    <h3>Animals</h3>            
+                </div>
+                <p class="inc">The beauty of nature is an important source of income for many countries of the world, natural places are a tourist attraction that helps countries to improve their economic level.</p>
+            </div>
+            
+               <div class="beauty-col">
+                <img src="Images/waterdrop.jpg">
+                <div class="layer">
+                    <h3>Water Drop</h3>
+                </div>
+                <p class="insp">The beauty of nature has always been the first inspiration for artists and creators around the world, This is evidenced by the vast number of works of art, poetry and music.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!----------------- Team ------------------------>
+    <section class="team">
+        <h3>Team Players</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row">
+            <div class="team-col">
+                <img src="Images/IMG_2567.JPG">
+                <div>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <h3>Jakpor Kelly</h3>
+                </div>
+            </div>
+            
+            <div class="team-col">
+                <img src="Images/IMG_2570.JPG">
+                <div>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <h3>Izebu Winifred</h3>
+                </div>
+                
+            </div>
+            
+            <div class="team-col">
+                <img src="Images/IMG_2569.JPG">
+                <div>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <h3>Uwagboe Kelvin</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!----------------cALL tO aCTION----------------------->
+    
+    <section class="cta">
+        <h1>Enroll For Tour Guide</h1>
+        <a href="">CONTACT US</a>
+    </section>
+    
+    <!-----------------JavaScript for toggle menu----------------->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-400px";
+        }
+    </script>
+</body>
+</html>
